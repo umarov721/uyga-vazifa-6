@@ -1,0 +1,522 @@
+@charset "UTF-8";
+@media screen and (max-width: 500px) {
+  .container header .nav {
+    width: 100%;
+    height: 10%;
+    display: flex;
+  }
+  .container header .nav .nav_li {
+    width: 70%;
+  }
+  .container header .nav .nav_li img {
+    width: 200px;
+  }
+  .container header .nav .nav_li h5 {
+    display: none;
+  }
+  .container header .nav .nav_li1 li {
+    display: none;
+  }
+  .container header .nav .nav_li2 {
+    display: none;
+  }
+  .container header .nav .nav_li2 h5 {
+    display: none;
+  }
+  .container header .nav .nav_li2 .btn {
+    display: none;
+  }
+  .container header .nav .img {
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .container .header_div {
+    width: 100%;
+  }
+  .container .header_div .header_list {
+    font-size: 15px;
+    max-width: 350px;
+  }
+  .container .header_div .header_list h1 {
+    max-width: 350px;
+  }
+  .container .header_div .header_list p {
+    color: #6C778E;
+  }
+  .container .header_div .header_list .img1 {
+    display: none;
+  }
+  .container .header_div .header_list .img2 {
+    background-image: url(../../img/заявка1.png);
+    width: 350px;
+    height: 300px;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .container .header_img {
+    display: none;
+  }
+  .container .box {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+    flex-direction: column;
+    height: 500px;
+  }
+  .servisa .servisa1 .servisa_ul {
+    display: none;
+  }
+  .servisa .servisa1 .media .media1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+    background-color: #E8F2FC;
+    color: #000;
+  }
+  .servisa .servisa1 .servisa_p {
+    margin-top: 50px;
+    padding-top: 50px;
+    width: 100%;
+    flex-direction: column;
+    height: 500px;
+  }
+  .servisa .servisa1 .servisa_p .servisa_list {
+    margin-top: 50px;
+  }
+  .servisa .servisa1 .servisa_p .servisa_img {
+    margin-left: -130px;
+    margin-top: 30px;
+  }
+  .servisa .servisa1 .servisa_p .servisa_img img {
+    width: 300px;
+    border-radius: 10px;
+  }
+  .vr_img {
+    display: none;
+  }
+  .vr_img1 {
+    margin-top: 200px;
+    background-image: url(../../img/Frame\ 34.png);
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .vashim {
+    flex-direction: column;
+  }
+  .vashim .vashim_list {
+    width: 100%;
+  }
+  .vashim .vashim_img {
+    width: 100%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+  }
+  .vashim .vashim_img img {
+    width: 300px;
+  }
+  .pochemu {
+    width: 100%;
+    margin-left: -30px;
+  }
+  .pochemu .pochemu_ul {
+    flex-direction: column;
+    height: 800px;
+  }
+  .pochemu .pochemu_ul .pochemu_li {
+    margin-top: 20px;
+  }
+  .pb_img {
+    display: none;
+  }
+  .pb_img1 {
+    margin-top: 50px;
+    background-image: url(../../img/заявка3.png);
+    width: 100%;
+    height: 50%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+  }
+  .tarif_box {
+    flex-direction: column;
+  }
+  .tarif_box .tarix_box1 {
+    margin-top: 20px;
+  }
+  .tarif_box .tarix_box2 {
+    margin-top: 20px;
+  }
+  .tarif_box .tarix_box3 {
+    margin-top: 20px;
+  }
+  .tarif_box button {
+    width: 50px;
+  }
+  .tarif_box .btn1 {
+    margin-bottom: 20px;
+  }
+}
+.container {
+  width: 85%;
+  height: 800px;
+  margin: 0 auto;
+}
+.container .btn {
+  border-radius: 30px;
+  background: linear-gradient(91deg, #11AE88 5.69%, #2A84EE 169.72%);
+  width: 200px;
+  height: 35px;
+  color: #fff;
+  border: 0px solid;
+}
+.container header {
+  width: 100%;
+}
+.container header .nav {
+  width: 100%;
+  height: 10%;
+}
+.container header .nav_ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container header .nav_ul .nav_li {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.container header .nav_ul .nav_li h5 {
+  padding-left: 20px;
+  font-size: 10px;
+}
+.container header .nav_ul .nav_li1 {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container header .nav_ul .nav_li1 .nav_li1-ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: #212121;
+  list-style: none;
+}
+.container header .nav_ul .nav_li2 {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+.container header .nav_ul .nav_li2 i {
+  margin-right: 10px;
+  color: #11AE88;
+}
+.container header .nav_ul .nav_li2 h5 {
+  margin-right: 20px;
+}
+.container header .img {
+  display: none;
+}
+.container header .header_div {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container header .header_div .header_list {
+  width: 500px;
+  height: 90%;
+  margin-top: 50px;
+}
+.container header .header_div .header_list h1 {
+  width: 500px;
+  line-height: 40px;
+}
+.container header .header_div .header_list p {
+  color: #6C778E;
+  font-size: 17px;
+}
+.container header .header_div .header_img {
+  width: 50%;
+}
+.container .box {
+  display: flex;
+  width: 100%;
+  border-radius: 10px;
+  background-color: #E8F2FC;
+  justify-content: space-around;
+  align-items: center;
+  height: 180px;
+}
+.container .box .box_chail {
+  flex: 1;
+  max-width: 300px;
+  color: #6C778E;
+}
+.container .servisa {
+  margin-top: 50px;
+}
+.container .servisa .servisa1 {
+  border-radius: 0px 0px 10px 10px;
+  background: #F6FAFF;
+  width: 100%;
+  height: 500px;
+  box-shadow: 5px 5px 50px 5px #d4eae8;
+  border-radius: 10px;
+}
+.container .servisa .servisa1 .servisa_ul {
+  list-style: none;
+  width: 100%;
+  height: 13%;
+}
+.container .servisa .servisa1 .servisa_ul .servisa_ul1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #E8F2FC 0%, #E8F2FC 100%), linear-gradient(91deg, #11AE88 5.69%, #2A84EE 125.81%), #2A84EE;
+}
+.container .servisa .servisa1 .servisa_ul .servisa_ul1 .servisa_li {
+  width: 200px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-radius: 10px 0px 0px 0px;
+  background: #F6FAFF;
+}
+.container .servisa .servisa1 .servisa_ul .servisa_ul1 .servisa_li1 {
+  color: #2EB897;
+  width: 200px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container .servisa .servisa1 .servisa_ul .servisa_ul1 .servisa_li2 {
+  color: #2EB897;
+  width: 200px;
+  max-width: 200px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container .servisa .servisa1 .servisa_ul .servisa_ul1 .servisa_li3 {
+  color: #2EB897;
+  width: 200px;
+  max-width: 150px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+.container .servisa .servisa1 .media1 {
+  display: none;
+}
+.container .servisa .servisa1 .servisa_p {
+  width: 100%;
+  height: 87%;
+  display: flex;
+  border-radius: 10px;
+  background-color: #F6FAFF;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .servisa .servisa1 .servisa_p .servisa_list {
+  width: 50%;
+  max-width: 400px;
+}
+.container .servisa .servisa1 .servisa_p .servisa_list .servisa_list-ul .servisa_list-li {
+  color: #18A2A5;
+}
+.container .servisa .servisa1 .servisa_p .servisa_list .servisa_list-ul .servisa_list-li p {
+  color: #6C778E;
+}
+.container .servisa .servisa1 .servisa_p .servisa_img {
+  width: 50%;
+}
+.container .vr_img {
+  margin-top: 150px;
+  position: relative;
+}
+.container .vr_img .vr_img-1 {
+  position: absolute;
+  left: 65%;
+  top: -29%;
+  width: 350px;
+}
+.container .vashim {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container .vashim .vashim_list {
+  max-width: 500px;
+}
+.container .vashim .vashim_list .vashim_list-h {
+  background-color: #EAF3FD;
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  flex: 1;
+}
+.container .vashim .vashim_list .vashim_list-h img,
+.container .vashim .vashim_list .vashim_list-h p {
+  max-width: 80%;
+}
+.container .vashim .vashim_img {
+  flex: 1;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+.container .pochemu {
+  width: 100%;
+  margin-top: 50px;
+}
+.container .pochemu .pochemu_ul {
+  display: flex;
+}
+.container .pochemu .pochemu_ul .pochemu_li {
+  height: 200px;
+  border-radius: 10px;
+  background-color: #EAF3FD;
+  margin-left: 50px;
+  flex: 1;
+  list-style: none;
+}
+.container .pochemu .pochemu_ul .pochemu_li .pochemu_li-p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.container .pochemu .pochemu_ul .pochemu_li .pochemu_li-p div {
+  width: 300px;
+}
+.container .pochemu .pochemu_ul .pochemu_li .pochemu_li-p div p {
+  font-size: 15px;
+  color: #707070;
+}
+.container .pb_img {
+  margin-top: 150px;
+  position: relative;
+}
+.container .pb_img .pb_img-1 {
+  position: absolute;
+  left: 65%;
+  top: -29%;
+  width: 350px;
+}
+.container .tarif {
+  width: 100%;
+  margin-top: 50px;
+}
+.container .tarif .tarif_btn {
+  display: flex;
+  width: 60%;
+  margin-top: 30px;
+  justify-content: space-b;
+}
+.container .tarif .tarif_btn .tarif_btn1 {
+  border-radius: 50px;
+  width: 200px;
+  height: 35px;
+  border: 1px solid #11AE88;
+  background-color: #11AE88;
+  color: #fff;
+}
+.container .tarif .tarif_btn .tarif_btn2 {
+  width: 200px;
+  margin-left: 30px;
+  border-radius: 50px;
+  height: 35px;
+  border: 1px solid #DBE1E9;
+  background-color: #fff;
+}
+.container .tarif .tarif_btn .tarif_btn2:hover {
+  border: 1px solid #11AE88;
+  background-color: #11AE88;
+  color: #fff;
+}
+.container .tarif .tarif_box {
+  display: flex;
+  width: 100%;
+  margin-top: 50px;
+}
+.container .tarif .tarif_box .tarix_box1 {
+  flex: 1;
+  border-radius: 10px;
+  background: #FFF;
+  margin-left: 20px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .tarif .tarif_box .tarix_box1 .btn1 {
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #E7F7F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .tarif .tarif_box .tarix_box2 {
+  flex: 1;
+  border-radius: 10px;
+  background: #EAF3FD;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .tarif .tarif_box .tarix_box2 .btn1 {
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #E7F7F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container .tarif .tarif_box .tarix_box3 {
+  flex: 1;
+  border-radius: 10px;
+  background: #11AE88;
+  margin-left: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .tarif .tarif_box .tarix_box3 .btn1 {
+  width: 250px;
+  height: 30px;
+  border-radius: 50px;
+  border: 1px solid #E7F7F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*# sourceMappingURL=header.css.map */
